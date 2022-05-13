@@ -1015,5 +1015,10 @@ input::-webkit-inner-spin-button {
   .ban-text p {
     font-size: 13px;
   }
-  
+  .fh h3 {
+    font-size: 12px;
+}
+.fh p {
+  font-size: 11px;
+}
 }
