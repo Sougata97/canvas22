@@ -4,6 +4,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   transition: 0.5s;
+  /* scroll-behavior: smooth; */
 }
 ::-moz-selection {
   /* Code for Firefox */
@@ -154,7 +155,7 @@ ul {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 4;
   padding-top: 90px;
   left: 0;
   top: 0;
@@ -642,6 +643,7 @@ input::-webkit-inner-spin-button {
 /* feature */
 .feature {
   position: relative;
+  margin-bottom: 15px;
 }
 .fe-bg-l {
   position: absolute;
@@ -705,6 +707,28 @@ input::-webkit-inner-spin-button {
 }
 
 /* feature */
+/* cont-1 */
+.content-1{
+  position: relative;
+}
+.con-1-bg{
+  width: 35%;
+  position: absolute;
+}
+.con-1-bg img{
+  width: 100%;
+}
+.cont-1-head{
+  text-align: left;
+  margin-left: 32%;
+  width: 50%;
+  padding-top: 70px;
+}
+.cont-1-head p{
+  width: 70%;
+}
+/* cont-1 */
+
 /* media query */
 @media only screen and (max-width: 1300px) {
   .nav-bar {
